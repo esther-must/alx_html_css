@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: #eaeaea;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+    background: #f5f5f5;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+article h1 {
+    color: #333;
+}
+
+article h2 {
+    color: #007bff;
+}
+
+article p {
+    color: #666;
+    line-height: 1.6;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+aside p {
+    background: #e7f3ff;
+    border: 1px solid #bcdffb;
+    border-radius: 8px;
+    color: #0056b3;
+}
+
+header {
+    background-color: #f8f9fa;
+}
+
+header a {
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header a:hover {
+    color: #0056b3;
+}
+
+footer {
+    background: #f8f9fa;
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.twitter-tweet {
+    max-width: 100%;
+    overflow-x: auto;
+}
