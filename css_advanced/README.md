@@ -16,5 +16,9 @@ This project demonstrates the implementation of advanced HTML and CSS concepts t
 
 ## How to Run Locally
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/alx_html_css.git
+    ```bash
+    git clone https://github.com/esther-must/alx_html_css.git
+2. Navigate to the project directory:
+    ```bash
+    cd css_advanced
+3. Open index.html in your browser.
