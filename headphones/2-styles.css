@@ -1,0 +1,16 @@
+.our-result {
+    min-height: 100vh;
+    background: url('./images/headphones_hero_2.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.our-result h2 {
+    padding-top: 100px;
+    color: #ffffff;
+}
+
+.our-result .centered-text {
+    color: #ffffff;
+    padding: 130px 20px 50px;
+    margin: 0 auto;
+}
